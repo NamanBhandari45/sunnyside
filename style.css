@@ -1,0 +1,296 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.banner{
+    background-color: blue;
+    height: 80vh;
+    min-height: 600px;
+    background-image: url("https://i.ibb.co/HNvHSyV/image-header.jpg");
+    background-position: center bottom;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.menu{
+    color: #fff;
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    font-family: 'Mooli', sans-serif;
+}
+
+.menu span{
+    margin-right: 30px;
+}
+
+.contact{
+    background-color: #fff;
+    color: black;
+    padding: 8px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.25s all ease-in-out;
+}
+
+.contact:hover{
+    background-color: antiquewhite;
+}
+
+.main{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: #fff;
+    font-weight: 100;
+    font-family: 'Croissant One', cursive;
+}
+
+.arrow{
+    margin-top: 60px;
+}
+
+.section1, .section2 {
+    display: flex;
+    height: 350px;
+}
+
+.egg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.left, .right{
+    flex: 1;
+}
+
+.section1 .left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left h1{
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+
+.left p{
+    color: #848391;
+    line-height: 1.8;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.left .button{
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+
+
+.left .container{
+    width: 60%;
+}
+
+.sectiontwo{
+    display: flex;
+    height: 380px;
+}
+
+.stand{
+    width: 100%;
+    height: 100%;
+}
+
+.sectiontwo .right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-container{
+    width: 60%;
+}
+
+.right h1{
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+
+.right p{
+    color: #848391;
+    line-height: 1.8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.right .button{
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.cherries{
+    width: 100%;
+    height: 100%; 
+}
+
+.client-img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.client-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+.section3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFBF8;
+}
+
+.section3 h1{
+    color: #a0a1a2;
+    font-size: 20px;
+    /* margin-top: 30px; */
+    padding: 50px;
+    margin-bottom: 40px;
+   
+}
+
+.clients{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.client{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 0.2;
+}
+
+.client p{
+    text-align: center;
+    margin-bottom: 30px;
+    color: #848391;
+    line-height: 1.8;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.cl{
+    margin-bottom: 30px;
+}
+
+.clients .details{
+    text-align: center;
+}
+
+.client h4{
+    color: #a0a1a2;
+    margin-top: 8px;
+}
+
+.section4{
+    display: flex;
+    margin-top: 80px;
+}
+
+.section4 img{
+    height: 100%;
+    width: 100%;
+    flex: 0.25;
+    object-fit: cover;
+}
+
+.footer{
+    background-color: #90d4c5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.footer-navigation{
+    margin-top: 30px;
+    color: #09483b;
+    font-weight: 400;
+    font-family: 'Mooli', sans-serif;
+}
+
+.footer-navigation span{
+    padding: 8px;
+    cursor: pointer;
+}
+
+.footer-navigation span:hover{
+    color: #18a287;
+}
+
+.social-media{
+    margin-top: 30px;
+}
+
+.social-media img{
+    padding: 5px;
+}
+
+@media (max-width: 575.98px ){
+
+    .section1{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .section1 .left{
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    .section4{
+        flex-wrap: wrap;
+    }
+
+    .section4 img{
+        flex: 0.5;
+        flex-basis: 50%;
+        width: 210px;
+        height: 200px;
+    }
+
+    .clients{
+        flex-direction: column;
+    }
+
+    .client{
+        margin-top: 50px;
+    }
+}
